@@ -9,6 +9,9 @@ export const metadata: Metadata = {
     default: "Home page",
     template: `%s | seo-app`,
   },
+  verification: {
+    google: "verification-iddd",
+  },
 };
 
 export default function RootLayout({

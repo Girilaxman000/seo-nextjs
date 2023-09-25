@@ -9,7 +9,6 @@ export const metadata: Metadata = {
     default: "Home page",
     template: `%s | seo-app`,
   },
-  description: "This is home page",
 };
 
 export default function RootLayout({

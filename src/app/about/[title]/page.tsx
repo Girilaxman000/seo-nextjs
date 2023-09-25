@@ -8,7 +8,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   return {
     title: params.title,
-    description: "dynamic routes",
+    alternates: {
+      canonical: `https://seo-app.com/${params.title}`,
+    },
   };
 }
 
